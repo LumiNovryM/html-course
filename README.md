@@ -15,15 +15,20 @@ HTML Diciptakan oleh Tim Berners-Lee. Selain HTML Tim Berners-Lee juga sudah men
 
 # Hello World
 
-Struktur HTML Sederhana
-`<!doctype html>
-<html>
+Struktur HTML Sederhana :
+
+```sh
+<!DOCTYPE html> <html lang="en">
 <head>
-     <title></title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
 </head>
 <body>
 </body>
-</html>`
+</html>
+```
 
 - **`<!doctype html>`** : Untuk memberi tahu bahwa struktur HTML yang digunakan adalah versi 5
 - **`<html>`** : Digunakan untuk membuat halaman HTML yang mencakup semua konten dan elemen
@@ -140,12 +145,12 @@ sedangkan untuk tag `<ul>` kita juga bisa merubah urutan bulletnya (defaultnya) 
 
 tag `<dl>` digunakan untuk membuat definition list, tag `<dt>` adalah definition terminology dan tag `<dd>` adalah definition description
 Berikut adalah struktur dari tag `<dl>`
-
-`<dl>
+```sh
+<dl>
         <dt>Term 1</dt>
         <dd>Description 1</dd> 
-</dl>`
-
+</dl>
+```
 # Hyperlink
 
 Hyperlink adalah sebuah koneksi dari sumber web ke web lain. link pada HTML dibuat dengan tag `<a>` (anchor). Tag `<a>` memiliki atribut `href` yang berguna sebagai tujuan link, berikut adalah link yang bisa kita isi pada atribut `href` yaitu 
@@ -193,18 +198,19 @@ Defaultnya satuan `px` lah yang digunakan
 
 Table pada HTML dibuat dengan tag `<table>` dengan struktur table yaitu Baris dan Kolom.
 Berikut adalah struktur `<table>` sederhana
-
-`<table>
+```sh
+<table>
    <tr>
       <td>Baris 1, Kolom 1</td>
       <td>Baris 1, Kolom 2</td>
    </tr>
    <tr>
-       <td>Baris 1, Kolom 1</td>`
+       <td>Baris 1, Kolom 1</td>
 
-       `<td>Baris 1, Kolom 2</td>
+       <td>Baris 1, Kolom 2</td>
     </tr>
-</table>`
+</table>
+```
 
 Berikut adalah struktur `<table>` kompleks
 
