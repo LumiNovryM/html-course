@@ -21,9 +21,8 @@ Struktur HTML Sederhana
 <head>
      <title></title>
 </head>
-<body>`
-
-`</body>
+<body>
+</body>
 </html>`
 
 - **`<!doctype html>`** : Untuk memberi tahu bahwa struktur HTML yang digunakan adalah versi 5
