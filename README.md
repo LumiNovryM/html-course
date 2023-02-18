@@ -264,3 +264,8 @@ Berikut adalah elemen form
 | select | Untuk memilih data secara dropdown |
 | button | Untuk membuat tombol sebagai cara untuk memulai proses pengirim form |
 | label | Sebagai pelengkap keterangan dari sebuah input |
+     
+ 
+Bahasa Indonesia
+<hr>
+Jika melihat sesuatu tidak pada tempatnya, pengertian yang salah, dan typo segera fix dan Open Pull Request untuk membantu :octocat:!
